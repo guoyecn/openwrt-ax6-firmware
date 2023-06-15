@@ -12,4 +12,4 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.16.1/g' package/base-files/files/bin/config_generate
-cp -f $GITHUB_WORKSPACE/ax6.mk openwrt/target/linux/ipq807x/image/generic.mk
+cp -f $GITHUB_WORKSPACE/ax6.mk target/linux/ipq807x/image/generic.mk
